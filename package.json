@@ -2,7 +2,7 @@
   "name": "portjunior",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eliseu-modan.github.io/portfolio-Eliseu/",
+  "homepage": "https://eliseu-modan.github.io/Projeto_Portfolio/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -63,7 +63,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
