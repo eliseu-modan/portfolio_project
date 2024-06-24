@@ -1,0 +1,199 @@
+.position{
+    position: absolute;
+    top: 80px;
+    left:600px;
+    z-index: 9;
+    background-color: rgb(233, 233, 233);
+    /* padding:200px ; */
+    width:900px;
+    height: 530px;
+    overflow-y: scroll;
+    
+}
+.git{
+    position: absolute;
+     left: 88%
+}
+.youtube{
+    position: absolute;
+     left: 80%
+}
+.imgPortfolio{
+     position: "relative";
+      top: -10px;
+       left: 10px
+}
+.imgSistemas{
+    position: relative;
+     top: 30px;
+      left: 10px
+}
+.imgPipeline{
+    position: relative; 
+    top: 30px; 
+    left: 10px
+}
+.card {
+    position: relative;
+    top: 30px;
+    width: 830px;
+    left: 30px;
+    margin-bottom: 20px;
+  }
+@media (max-width:1470px){
+    .position{
+        width:690px;
+        left: 530px;
+    }
+    .ant-card-body{
+        width: 300px;
+    }
+    .git{
+        position: absolute;
+        left: 200%;
+    }
+    .youtube{
+        position: absolute;
+        left: 170%;
+    }
+    .imgPortfolio{
+        position: "relative";
+        top: -10px;
+        left: 10px;
+        width:580px;
+        height: 300px;
+    }
+    .imgSistemas{
+        position: relative;
+         top: 30px;
+          left: 10px;
+          width: 580px;
+          height: 300px;
+    }
+    .imgPipeline{
+        position: relative; 
+        top: 30px;
+         left: 10px;
+         width: 580px;
+         height: 300px;
+    }
+   .card{
+    top: 30px;
+    width: 630px;
+    left: 30px;
+   }
+}
+@media (max-width:1235px){
+    .position{
+        width:450px;
+        left: 450px;
+    }
+    .ant-card-body{
+        width: 300px;
+    }
+    .git{
+        position: absolute;
+        left: 120%;
+    }
+    .youtube{
+        position: absolute;
+        left: 95%;
+    }
+    .imgPortfolio{
+        position: "relative";
+        top: -10px;
+        left: 10px;
+        width:350px;
+        height: 200px;
+    }
+    .imgSistemas{
+        position: relative;
+         top: 30px;
+          left: 10px;
+          width: 350px;
+          height: 200px;
+    }
+    .imgPipeline{
+        position: relative; 
+        top: 30px;
+         left: 10px;
+         width: 350px;
+         height: 200px;
+    }
+   .card{
+    top: 30px;
+    width: 390px;
+    left: 30px;
+   }
+}
+@media (max-width:909px){
+    .position{
+        width:450px;
+        left: 350px;
+    }
+}
+    @media (max-width:809px){
+        .position{
+            width:450px;
+            left: 300px;
+        }
+}
+@media (max-width:770px){
+    .position{
+        width:370px;
+        left: 270px;
+    }
+    .ant-card-body{
+        width: 300px;
+    }
+    .git{
+        position: absolute;
+        left: 90%;
+        height: 40px;
+    }
+    .youtube{
+        position: absolute;
+        left: 70%;
+        height: 40px;
+    }
+    .imgPortfolio{
+        position: "relative";
+        top: -10px;
+        left: 2px;
+        width:280px;
+        height: 140px;
+    }
+    .imgSistemas{
+        position: relative;
+         top: 30px;
+          left: 10px;
+          width:280px;
+          height: 140px;
+    }
+    .imgPipeline{
+        position: relative; 
+        top: 30px;
+         left: 10px;
+         width:280px;
+         height: 140px;
+    }
+   .card{
+    top: 30px;
+    width: 315px;
+    left: 30px;
+   }
+}
+@media (max-width:656px){
+    .position{
+        width:370px;
+        left: 240px;
+    }
+   
+}
+@media (max-width:626px){
+    .position{
+        width:370px;
+        left: 230px;
+    }
+   
+}

@@ -1,0 +1,196 @@
+.header {
+    position: relative;
+    width:36.2%;
+    position: fixed;
+    padding-bottom: 96vh;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    color: aliceblue;
+}
+#Logo1 {
+    position: absolute;
+    left: 26%;
+    top: 5%;
+    margin: 0;
+    padding: 0;
+
+    background-color: black;
+    /* border-radius: 5px; */
+
+    }
+  .nameOne{
+    position: relative;
+    font-size: 18px;
+    color: rgb(159, 159, 159);
+    width: 50%;
+    height: 0%;
+    top: 410px;
+    left: 145px;
+    background-color: black;
+    opacity: 90%;
+  }
+  .nameTwo{
+    position: relative;
+    font-size: 16.6px;
+    color: rgb(159, 159, 159);
+    width: 50%;
+    height: 0%;
+    top: 470px;
+    left: 145px;
+    background-color: black;
+    opacity: 90%;
+  }
+  .nameTree{
+    position: relative;
+    font-size: 16.5px;
+    color: rgb(159, 159, 159);
+    width: 50%;
+    height: 0%;
+    top: 440px;
+    left: 145px;
+    background-color: black;
+    opacity: 90%;
+  }
+ 
+    
+    #icon_facebook {
+        position: relative;
+        top: 370px;
+        left: -0px;
+        /* background-color: black; */
+        margin: 0px;
+        border-radius: 30px;
+    }
+    
+    #Git_icon {
+        position: relative;
+        top: 375px;
+        left: 10px;
+        background-color: rgb(23, 23, 23);
+        margin: 0px;
+        border-radius: 30px;
+    }
+    
+    #icon_linkedin {
+        position: relative;
+        top: 372px;
+        left: 20px;
+        background-color: black;
+        margin: 0px;
+        border-radius: 30px;
+    }
+ 
+    @media (max-width:1470px){
+      #icon_facebook, #Git_icon,#icon_linkedin{
+      top: 350px;
+    }
+    .nameOne{
+      left: 130px;
+      top: 390px ;
+     }
+     .nameTwo{
+      left: 130px;
+      top: 450px
+     }
+     .nameTree{
+      left: 130px;
+      top: 420px
+
+     }
+
+    }
+    @media (max-width:1235px){
+      #icon_facebook, #Git_icon, #icon_linkedin{
+      top: 290px;
+    }
+    .nameOne{
+     left: 120px;
+     top: 340px ;
+
+    }
+    .nameTwo{
+      left: 120px;
+      top: 400px
+
+    }
+    .nameTree{
+      left: 120px;
+      top: 370px
+
+
+    }
+    }
+    @media (max-width:980px){
+      #icon_facebook, #Git_icon, #icon_linkedin{
+        top: 220px;
+      }
+      .nameOne{
+        left: 95px;
+        top: 250px ;
+   font-size: 14px;
+       }
+       .nameTwo{
+        left: 100px;
+        top: 280px ;
+   font-size: 14px;
+   
+       }
+       .nameTree{
+        left: 100px;
+        top: 310px ;
+   font-size: 14px;
+   
+   
+       }
+    }
+    @media (max-width:909px){
+      #icon_facebook, #Git_icon, #icon_linkedin{
+        top: 230px;
+      }
+      .nameOne{
+        left: 75px;
+        top: 270px ;
+        font-size: 12px;
+
+       }
+       .nameTwo{
+         left: 80px;
+         top: 300px;
+         font-size: 12px;
+
+       }
+       .nameTree{
+         left: 80px;
+         font-size: 12px;
+         top: 330px
+   
+   
+       }
+  }
+ 
+  @media (max-width:784px){
+    #icon_facebook, #Git_icon, #icon_linkedin{
+      top: 190px;
+    }
+    .nameOne{
+      left: 52px;
+      top: 210px ;
+      font-size: 8px;
+
+     }
+     .nameTwo{
+       left: 55px;
+       top: 230px;
+       font-size: 8px;
+
+     }
+     .nameTree{
+       left: 55px;
+       font-size: 8px;
+       top: 250px
+ 
+ 
+     }
+}

@@ -1,0 +1,36 @@
+
+    a {
+        text-decoration:none;
+        color: rgb(0, 0, 0);
+       background-color: rgb(255, 255, 255);
+    }
+    #custom-button {
+      background-color: white; 
+      border-color: black; 
+      color: black;
+    }
+    #custom-button.active {
+      border-color: #222bd6; 
+      color:#222bd6;
+      justify-content: center;
+      margin-right: 20px;
+      margin-left: 20px;
+      font-size: larger;
+      height: 50px;
+    }
+    .custom-link {
+      margin-right: 10px;
+    }
+    .menu {
+      display: flex; 
+      left: 50%;
+      width: 100px;
+    }
+ 
+
+    #menu {
+      display: flex; 
+    }
+    /* #space{
+      padding-right: 10px;
+    } */
