@@ -211,18 +211,18 @@
       
   }
   #icon_facebook, #Git_icon, #icon_linkedin{
-    top: 430px;
+    top: 380px;
 left: -160px;
   }
   .nameOne{
     left:5px;
-    top: 470px ;
+    top: 420px ;
     font-size: 16px;
 
    }
    .nameTwo{
      left: 5px;
-     top: 490px;
+     top: 450px;
      font-size: 16px;
      z-index: 9;
 
@@ -230,7 +230,7 @@ left: -160px;
    .nameTree{
      left: 5px;
      font-size: 16px;
-     top: 510px;
+     top: 480px;
 z-index: 9;
 
    }
