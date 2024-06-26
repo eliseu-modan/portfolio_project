@@ -316,17 +316,13 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip> */}
       </Card>
       <Card
-        style={{
-          position: "absolute",
-          top: "830px",
-          width: "830px",
-          left: "30px",
-          overflowX: "scroll",
-        }}
+      className="cardDevOps"
+     
         ref={devOpsRef}
       >
-        <div style={{ height: "190px", fontSize: "20px" }}>
+        <div style={{ height: "250px", fontSize: "20px" }}>
           <Button
+          id="buttondevOps"
             onClick={handleScrollDevOpsClick}
             style={{
               position: "absolute",
@@ -342,7 +338,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </div>
         <Tooltip title="Tenho uma experiência sólida na utilização de Ansible para automação e gerenciamento de infraestrutura em ambientes DevOps. Minhas responsabilidades incluíram a criação e manutenção de playbooks, a configuração de servidores e a implementação de pipelines de CI/CD, resultando em melhorias significativas na eficiência e na consistência das operações.">
           <img
-            style={{ position: "absolute", left: "40px", top: "95px" }}
+          className="imgAnsible"
             src={AnsibleIcon}
             height={120}
             width={150}
@@ -350,7 +346,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Tenho uma experiência robusta na utilização de Docker para a containerização de aplicações e gestão de ambientes em máquinas virtuais (VMs) no contexto DevOps. Minhas responsabilidades incluíram a criação de imagens Docker, orquestração de containers e implementação de pipelines de CI/CD, resultando em ambientes mais ágeis, escaláveis e consistentes.">
           <img
-            style={{ position: "absolute", left: "210px", top: "100px" }}
+          className="imgDocker"
             src={Docker}
             height={110}
             width={225}
@@ -358,7 +354,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Tenho ampla experiência na utilização de Docker Compose para orquestrar contêineres em ambientes de máquinas virtuais (VMs), melhorando significativamente a eficiência, a escalabilidade e a consistência das aplicações. Minhas responsabilidades incluíram a criação e manutenção de arquivos docker-compose.yml, a configuração de ambientes de desenvolvimento e produção, e a integração com pipelines de CI/CD.">
           <img
-            style={{ position: "absolute", left: "450px", top: "105px" }}
+          className="imgCompose"
             src={Compose}
             height={120}
             width={235}
@@ -366,7 +362,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Tenho experiência significativa na utilização do Nexus Repository Manager para armazenar e gerenciar contêineres Docker, melhorando a organização e a segurança dos artefatos em nossos pipelines de CI/CD. Minhas responsabilidades incluíram a configuração do Nexus para repositórios Docker, a automação de uploads e a gestão de versões e permissões.">
           <img
-            style={{ position: "absolute", left: "690px", top: "95px" }}
+          className="imgNexus"
             src={Nexus}
             height={120}
             width={120}
@@ -374,7 +370,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Tenho vasta experiência na utilização do Jenkins para automação de pipelines de integração contínua e entrega contínua (CI/CD). Minhas responsabilidades incluíram a configuração e manutenção de pipelines, a integração com outras ferramentas de DevOps e a automação de processos de build, teste e deployment, resultando em entregas mais rápidas e confiáveis.">
           <img
-            style={{ position: "absolute", left: "845px", top: "110px" }}
+          className="imgJenkins"
             src={Jenkins}
             height={100}
             width={150}
@@ -382,7 +378,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Tenho vasta experiência na utilização de Kubernetes para orquestração de contêineres e gestão de ambientes de desenvolvimento, testes e produção. Minhas responsabilidades incluíram a configuração e manutenção de clusters Kubernetes, automação de deploys, monitoramento e escalabilidade de aplicações.">
           <img
-            style={{ position: "absolute", left: "1020px", top: "120px" }}
+          className="imgKubernets"
             src={Kubernets}
             height={90}
             width={140}
@@ -390,7 +386,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Tenho experiência significativa na utilização do SonarQube para análise estática de código, assegurando a qualidade e a segurança das aplicações. Minhas responsabilidades incluíram a configuração e manutenção do SonarQube, integração com pipelines de CI/CD e a implementação de políticas de qualidade de código.">
           <img
-            style={{ position: "absolute", left: "1200px", top: "138px" }}
+          className="imgSonar"
             src={SonarQube}
             height={100}
             width={130}
@@ -398,7 +394,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Tenho ampla experiência na utilização do VirtualBox para criação e gestão de ambientes de virtualização, facilitando o desenvolvimento, testes e deployment de aplicações. Minhas responsabilidades incluíram a configuração de VMs, automação de provisionamento e integração com outras ferramentas DevOps.">
           <img
-            style={{ position: "absolute", left: "1360px", top: "139px" }}
+          className="imgVirtualBox"
             src={VirtualBox}
             height={90}
             width={170}
@@ -408,7 +404,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
       <Card
         style={{
           position: "absolute",
-          top: "1120px",
+          top: "1160px",
           width: "830px",
           left: "30px",
           overflowX: "scroll",

@@ -213,7 +213,8 @@
   #icon_facebook, #Git_icon, #icon_linkedin{
     top: 380px;
 left: -160px;
-  }
+margin-right: 20px;
+}
   .nameOne{
     left:5px;
     top: 420px ;

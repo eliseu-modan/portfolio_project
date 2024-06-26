@@ -1,6 +1,6 @@
 .imgJS,.imgC,.imgJAVA,.imgTypeScript,.imgReact,
 .imgAntdIcon,.imgCSS,.imgHtml,.imgJson,.imgPrisma,
-.imgBcryptIcon,.imgExpress,.imgJsonWeb{
+.imgBcryptIcon,.imgExpress,.imgJsonWeb,.imgDocker{
     position: absolute; 
     top: 100px
 }
@@ -52,6 +52,63 @@ left:330px
 .imgBcryptIcon{
 left: 460px
 }
+.imgSequelize{
+    position: absolute;
+    left: 580px;
+    top:98px
+}
+.imgExpress{
+left: 700px;
+}
+.imgJsonWeb{
+left: 850px
+}
+.imgMVC{
+    position: absolute;
+    left: 1060px;
+    top: 60px;
+}
+.imgAnsible{
+    position: absolute;
+    left: 40px;
+    top: 95px;
+}
+.imgDocker{
+   left: 210px;
+}
+.imgCompose{
+    position: absolute;
+    left: 450px;
+    top: 105px;
+}
+.imgNexus{
+    position: absolute;
+    left: 690px;
+    top: 95px;
+}
+.imgJenkins{
+    position: absolute;
+    left: 845px;
+    top: 110px;
+}
+.imgKubernets{
+    position: absolute;
+    left: 1020px;
+    top: 120px;
+}
+.imgSonar{
+    position: absolute;
+    left: 1200px;
+    top: 138px;
+}
+.imgVirtualBox{
+    position: absolute;
+    left: 1360px;
+    top: 139px;
+}
+
+
+
 .cardLinguagens{
     position: absolute;
           top: 30px;
@@ -71,21 +128,12 @@ left: 460px
     left: 30px;
     overflow-X: scroll;
 }
-.imgSequelize{
+.cardDevOps{
     position: absolute;
-    left: 580px;
-    top:98px
-}
-.imgExpress{
-left: 700px;
-}
-.imgJsonWeb{
-left: 850px
-}
-.imgMVC{
-    position: absolute;
-    left: 1060px;
-    top: 60px;
+    top:830px;
+    width: 830px;
+    left: 30px;
+    overflow-X: scroll
 }
 
 
@@ -93,20 +141,26 @@ left: 850px
     .cardLinguagens{
         position: absolute;
               top: 30px;
-              width: 320px;
-              left: 30px
+              width: 350px;
+              left: 10px
     }
     .cardFrontEnd{
         position:absolute;
         top: 290px;
-        width: 320px;
-        left: 30px
+        width: 350px;
+        left: 10px
     }
     .cardBackEnd{
         position: absolute;
         top: 550px;
-        width: 320px;
-        left: 30px;
+        width: 350px;
+        left: 10px;
+    }
+    .cardDevOps{
+        position: absolute;
+        top:830px;
+        width: 350px;
+        left: 10px;
     }
     .imgC,.imgJAVA,.imgJS,.imgTypeScript,
     .imgReact,.imgAntdIcon,.imgCSS,.imgPrisma{
@@ -157,6 +211,9 @@ left: 850px
     #buttonBackEnd{
         display: none;
     }
+    #buttondevOps{
+        display: none;
+    }
     .imgDbeaver{
         position: absolute; 
         left: 20px;
@@ -205,6 +262,52 @@ left: 850px
     .imgMVC{
         left: 210px ;
     }
+    .imgAnsible{
+        position: absolute; 
+        left: 10px ;
+        height: 60px;
+        width: 80px;
+        top: 90px;
+    }
+    .imgDocker,.imgCompose,.imgNexus,
+    .imgJenkins,.imgKubernets,.imgSonar
+    .imgVirtualBox{
+        position: absolute; 
+        left: 82px ;
+        height: 60px;
+        width: 110px;
+        top: 85px; 
+    }
+    .imgCompose{
+        left: 210px;
+    }
+    .imgNexus{
+    top: 165px;
+    width: 70px ;
+    left: 10px;
+    }
+    .imgJenkins{
+       top: 180px;
+       width: 60px;
+       height: 40px;
+    }
+    .imgKubernets{
+        top: 170px;
+        width: 67px;
+        height: 50px;
+        left: 155px;
+     }
+     .imgSonar{
+        top: 175px;
+        width: 77px;
+        height: 60px;
+        left: 240px;
+     }
+     .imgVirtualBox{
+       top:230px;
+       left: 20px;
+       width: 120px;
+       height: 60px;
 
-    
+    }
 }
