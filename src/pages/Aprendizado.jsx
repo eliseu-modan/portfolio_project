@@ -332,7 +332,6 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
           />
         </Tooltip>
       </Card>
-
       <Card
         style={{
           position: "absolute",
