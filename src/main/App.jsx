@@ -36,9 +36,9 @@ const App = () => {
   };
   const footerStyle = {
     textAlign: "center",
-    color: "#8c8c8",
+    // color: "#8c8c8",
     backgroundColor: "#c1c1c1",
-    left: "20px",
+    // left: "20px",
     padding: "20px",
   };
   const layoutStyle = {

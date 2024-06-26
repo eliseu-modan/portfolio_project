@@ -1,7 +1,7 @@
 .position{
     position: absolute;
     top: 80px;
-    left:600px;
+    left:640px;
     z-index: 9;
     background-color: rgb(233, 233, 233);
     /* padding:200px ; */
@@ -40,10 +40,10 @@
     left: 30px;
     margin-bottom: 20px;
   }
-@media (max-width:1470px){
+@media (max-width:1560px){
     .position{
         width:690px;
-        left: 530px;
+        left: 630px;
     }
     .ant-card-body{
         width: 300px;
@@ -83,10 +83,10 @@
     left: 30px;
    }
 }
-@media (max-width:1235px){
+@media (max-width:1340px){
     .position{
         width:450px;
-        left: 450px;
+        left: 490px;
     }
     .ant-card-body{
         width: 300px;
@@ -126,22 +126,22 @@
     left: 30px;
    }
 }
-@media (max-width:909px){
+@media (max-width:963px){
     .position{
         width:450px;
-        left: 350px;
+        left: 390px;
     }
 }
-    @media (max-width:809px){
+    @media (max-width:861px){
         .position{
             width:450px;
-            left: 300px;
+            left: 320px;
         }
 }
-@media (max-width:770px){
+@media (max-width:790px){
     .position{
         width:370px;
-        left: 270px;
+        left: 290px;
     }
     .ant-card-body{
         width: 300px;
@@ -183,7 +183,7 @@
     left: 30px;
    }
 }
-@media (max-width:656px){
+@media (max-width:680px){
     .position{
         width:370px;
         left: 240px;

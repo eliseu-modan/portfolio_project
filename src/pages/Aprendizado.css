@@ -1,0 +1,210 @@
+.imgJS,.imgC,.imgJAVA,.imgTypeScript,.imgReact,
+.imgAntdIcon,.imgCSS,.imgHtml,.imgJson,.imgPrisma,
+.imgBcryptIcon,.imgExpress,.imgJsonWeb{
+    position: absolute; 
+    top: 100px
+}
+.imgJS{
+     left:210px; 
+}
+.imgC{
+    left: 310px; 
+}
+.imgJAVA{
+    left: 410px; 
+}
+.imgTypeScript{
+     left: 510px; 
+}
+.imgReact{
+     left: 60px; 
+}
+.imgAntdIcon{
+    left: 170px
+}
+.imgWebSocket{
+    position: absolute;
+    left: 290px;
+    top:110px
+}
+.imgCSS{
+     left: 420px
+}
+.imgHtml{
+    left: 540px
+}
+.imgJson{
+    left: 680px
+}
+.imgDbeaver{
+    position: absolute;
+    left: 40px;
+    top: 95px
+}
+.imgMysqlIcon{
+    position: absolute;
+    left: 190px;
+    top: 105px
+}
+.imgPrisma{
+left:330px
+}
+.imgBcryptIcon{
+left: 460px
+}
+.cardLinguagens{
+    position: absolute;
+          top: 30px;
+          width: 830px;
+          left: 30px
+}
+.cardFrontEnd{
+    position:absolute;
+    top: 290px;
+    width: 830px;
+    left: 30px
+}
+.cardBackEnd{
+    position: absolute;
+    top: 550px;
+    width: 830px;
+    left: 30px;
+    overflow-X: scroll;
+}
+.imgSequelize{
+    position: absolute;
+    left: 580px;
+    top:98px
+}
+.imgExpress{
+left: 700px;
+}
+.imgJsonWeb{
+left: 850px
+}
+.imgMVC{
+    position: absolute;
+    left: 1060px;
+    top: 60px;
+}
+
+
+@media (max-width:626px){
+    .cardLinguagens{
+        position: absolute;
+              top: 30px;
+              width: 320px;
+              left: 30px
+    }
+    .cardFrontEnd{
+        position:absolute;
+        top: 290px;
+        width: 320px;
+        left: 30px
+    }
+    .cardBackEnd{
+        position: absolute;
+        top: 550px;
+        width: 320px;
+        left: 30px;
+    }
+    .imgC,.imgJAVA,.imgJS,.imgTypeScript,
+    .imgReact,.imgAntdIcon,.imgCSS,.imgPrisma{
+        position: absolute; 
+        height: 40px;
+        width: 40px;
+        top: 110px;
+    }
+    .imgJS{
+        left:40px; 
+    }
+    .imgC{
+        left:100px;   
+    }
+    .imgJAVA{
+        left:160px; 
+    }
+    .imgTypeScript{
+        left:220px; 
+    }
+    .imgReact{
+        left:40px; 
+    }
+    .imgAntdIcon{
+        left: 100px; 
+    }
+    .imgWebSocket{
+        left: 150px ;
+        top: 110px;
+        height: 40px;
+        width: 70px;
+    }
+    .imgCSS{
+        left:230px; 
+    }
+    .imgHtml{
+    left: 40px;
+    height: 40px;
+    width: 40px;
+    top: 170px;
+    }
+    .imgJson{
+        left: 105px;
+    height: 40px;
+    width: 40px;
+    top: 170px;
+    }
+    #buttonBackEnd{
+        display: none;
+    }
+    .imgDbeaver{
+        position: absolute; 
+        left: 20px;
+        height: 60px;
+        width: 80px;
+        top: 100px;
+    }
+    .imgMysqlIcon{
+        position: absolute; 
+        left: 100px;
+        height: 80px;
+        width: 60px;
+        top: 92px;
+    }
+    .imgPrisma{
+        left: 175px ;
+    }
+    .imgBcryptIcon{
+        position: absolute; 
+        left: 230px ;
+        height: 40px;
+        width: 70px;
+        top: 110px;
+    }
+    .imgSequelize{
+        position: absolute; 
+        left: 17px ;
+        height: 70px;
+        width: 90px;
+        top: 160px;
+    }
+    .imgExpress{
+        position: absolute; 
+        left: 107px ;
+        height: 50px;
+        width: 60px;
+        top: 172px;
+    }
+    .imgJsonWeb,.imgMVC{
+        position: absolute; 
+        left: 107px ;
+        height: 50px;
+        width: 100px;
+        top: 172px;
+    }
+    .imgMVC{
+        left: 210px ;
+    }
+
+    
+}

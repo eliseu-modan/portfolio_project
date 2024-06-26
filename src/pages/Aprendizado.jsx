@@ -116,12 +116,7 @@ function Aprendizado() {
   return (
     <div className="position">
       <Card
-        style={{
-          position: "absolute",
-          top: "30px",
-          width: "830px",
-          left: "30px",
-        }}
+      className="cardLinguagens"
       >
         <div style={{ height: "180px", fontSize: "20px" }}>
           <b>Linguagens de Programação</b>
@@ -131,7 +126,7 @@ function Aprendizado() {
         <div>
           <Tooltip title="JavaScript foi utilizado em aplicações empresariais, tanto no frontend quanto no backend.">
             <img
-              style={{ position: "absolute", left: "210px", top: "100px" }}
+            className="imgJS"
               src={JS}
               height={80}
               width={80}
@@ -139,7 +134,7 @@ function Aprendizado() {
           </Tooltip>
           <Tooltip title="C é uma linguagem que aprendi durante minha formação, utilizada para entender os conceitos básicos de programação e algoritmos.">
             <img
-              style={{ position: "absolute", left: "310px", top: "100px" }}
+            className="imgC"
               src={C}
               height={80}
               width={80}
@@ -147,7 +142,7 @@ function Aprendizado() {
           </Tooltip>
           <Tooltip title="Java foi utilizado na faculdade para realizar projetos orientados a objetos.">
             <img
-              style={{ position: "absolute", left: "410px", top: "100px" }}
+            className="imgJAVA"
               src={JAVA}
               height={80}
               width={80}
@@ -155,7 +150,7 @@ function Aprendizado() {
           </Tooltip>
           <Tooltip title="Durante minha atuação na empresa, fui responsável pela migração de vários projetos de JavaScript para TypeScript. Este processo foi essencial para melhorar a qualidade do código, a manutenção e a escalabilidade das nossas aplicações.">
             <img
-              style={{ position: "absolute", left: "510px", top: "100px" }}
+            className="imgTypeScript"
               src={TypeScript}
               height={80}
               width={80}
@@ -164,12 +159,8 @@ function Aprendizado() {
         </div>
       </Card>
       <Card
-        style={{
-          position: "absolute",
-          top: "290px",
-          width: "830px",
-          left: "30px",
-        }}
+      className="cardFrontEnd"
+
       >
         <div style={{ height: "180px", fontSize: "20px" }}>
           <b>Front-End</b>
@@ -177,7 +168,7 @@ function Aprendizado() {
         </div>
         <Tooltip title="Utilizei o React como principal framework para o desenvolvimento de softwares no frontend voltados para automação. Com o React, pude criar interfaces de usuário altamente dinâmicas e responsivas, garantindo uma experiência fluida para os usuários finais. A abordagem de componentização do React facilitou a criação de componentes reutilizáveis, permitindo uma maior modularidade e facilidade na manutenção do código.">
           <img
-            style={{ position: "absolute", left: "60px", top: "100px" }}
+          className="imgReact"
             src={REACT}
             height={80}
             width={80}
@@ -185,7 +176,7 @@ function Aprendizado() {
         </Tooltip>
         <Tooltip title="Implementei o Ant Design como nossa biblioteca de componentes UI para o desenvolvimento de interfaces de usuário consistentes e visualmente atraentes. Com uma ampla variedade de componentes prontos para uso, como botões, formulários, tabelas e muito mais, o Ant Design nos proporcionou uma base sólida para construir interfaces de usuário intuitivas e eficientes.">
           <img
-            style={{ position: "absolute", left: "170px", top: "100px" }}
+          className="imgAntdIcon"
             src={AntdIcon}
             height={90}
             width={90}
@@ -193,7 +184,7 @@ function Aprendizado() {
         </Tooltip>
         <Tooltip title="Implementamos WebSockets para comunicação em tempo real em nossa aplicação. Ao utilizar WebSockets, conseguimos estabelecer uma conexão bidirecional entre o cliente e o servidor, permitindo a troca instantânea de dados e atualizações em tempo real. Isso foi especialmente útil em cenários onde precisávamos manter os usuários sincronizados com as últimas informações do sistema sem a necessidade de recarregar a página">
           <img
-            style={{ position: "absolute", left: "290px", top: "110px" }}
+          className="imgWebSocket"
             src={WebSocketicon}
             height={75}
             width={100}
@@ -201,7 +192,7 @@ function Aprendizado() {
         </Tooltip>
         <Tooltip title="Utilizei CSS para estilizar e dar forma às nossas interfaces de usuário. Através do CSS, conseguimos criar layouts atraentes e responsivos, aplicar estilos visuais e personalizar a aparência dos elementos da nossa aplicação. Utilizamos técnicas modernas de CSS, como Flexbox e Grid, para criar layouts flexíveis e eficientes, garantindo uma experiência consistente em diferentes dispositivos e tamanhos de tela">
           <img
-            style={{ position: "absolute", left: "420px", top: "100px" }}
+          className="imgCSS"
             src={css}
             height={90}
             width={90}
@@ -209,7 +200,7 @@ function Aprendizado() {
         </Tooltip>
         <Tooltip title="Utilizamos HTML como a estrutura básica para desenvolver nossas páginas da web. O HTML nos permitiu criar uma estrutura semântica e organizada para nossas interfaces de usuário, fornecendo a base para o conteúdo e a hierarquia dos elementos na página. Utilizamos tags HTML adequadas para marcar diferentes tipos de conteúdo, como títulos, parágrafos, listas e formulários, garantindo uma estrutura lógica e acessível para nossos usuários.">
           <img
-            style={{ position: "absolute", left: "540px", top: "100px" }}
+          className="imgHtml"
             src={html}
             height={90}
             width={90}
@@ -223,7 +214,7 @@ Atualizar dinamicamente o conteúdo das páginas com dados JSON recebidos em res
 Facilitar a manipulação e processamento de dados estruturados, garantindo uma experiência de usuário dinâmica e responsiva."
         >
           <img
-            style={{ position: "absolute", left: "680px", top: "100px" }}
+          className="imgJson"
             src={json}
             height={90}
             width={87}
@@ -231,17 +222,13 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
       </Card>
       <Card
-        style={{
-          position: "absolute",
-          top: "550px",
-          width: "830px",
-          left: "30px",
-          overflowX: "scroll",
-        }}
+      className="cardBackEnd"
+
         ref={backEndRef}
       >
-        <div style={{ height: "180px", fontSize: "20px" }}>
+        <div style={{ height: "190px", fontSize: "20px" }}>
           <Button
+          id="buttonBackEnd"
             onClick={handleScrollBackEndClick}
             style={{
               position: "absolute",
@@ -257,7 +244,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </div>
         <Tooltip title="No meu trabalho de desenvolvimento, utilizei Node.js em conjunto com o Express para criar a infraestrutura backend das aplicações web. Node.js é uma plataforma de tempo de execução baseada no motor V8 do Chrome que permite a execução de código JavaScript no servidor. O Express, por sua vez, é um framework minimalista para Node.js que simplifica a construção de servidores web e APIs RESTful.">
           <img
-            style={{ position: "absolute", left: "700px", top: "100px" }}
+          className="imgExpress"
             src={Express}
             height={90}
             width={120}
@@ -265,7 +252,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="utilizei o Prisma como ORM para gerenciar e interagir com bancos de dados de maneira eficiente e intuitiva. Prisma é uma ferramenta moderna que simplifica a manipulação de dados, oferecendo uma experiência de desenvolvimento fluida e consistente.">
           <img
-            style={{ position: "absolute", left: "330px", top: "100px" }}
+          className="imgPrisma"
             src={Prisma}
             height={90}
             width={105}
@@ -273,7 +260,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="utilizei o Sequelize como ORM para gerenciar e interagir com bancos de dados relacionais de maneira eficiente. O Sequelize é uma ferramenta robusta que facilita a manipulação de dados, abstraindo a complexidade das consultas SQL e permitindo um desenvolvimento mais rápido e seguro.">
           <img
-            style={{ position: "absolute", left: "580px", top: "98px" }}
+          className="imgSequelize"
             src={sequelizeIcon}
             height={100}
             width={130}
@@ -281,7 +268,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="No meu trabalho de desenvolvimento, utilizei o MySQL como sistema de gerenciamento de banco de dados para armazenar e gerenciar dados de forma eficiente e escalável. MySQL é uma escolha popular devido à sua robustez, facilidade de uso e desempenho.">
           <img
-            style={{ position: "absolute", left: "190px", top: "105px" }}
+          className="imgMysqlIcon"
             src={mysqlIcon}
             height={120}
             width={110}
@@ -289,11 +276,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="No meu trabalho de desenvolvimento, utilizei o DBeaver como uma ferramenta de gerenciamento de banco de dados para facilitar a interação e administração de diversos sistemas de banco de dados. O DBeaver oferece uma interface gráfica poderosa e intuitiva que simplifica a execução de tarefas de gerenciamento e consulta de dados.">
           <img
-            style={{
-              position: "absolute",
-              left: "40px",
-              top: "95px",
-            }}
+          className="imgDbeaver"
             src={DBeaverIcon}
             height={110}
             width={140}
@@ -301,7 +284,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="utilizei o bcrypt para garantir a segurança das senhas dos usuários. O bcrypt é uma biblioteca poderosa para hashing de senhas, amplamente utilizada devido à sua capacidade de gerar hashes seguros e de ser resistente a ataques de força bruta.">
           <img
-            style={{ position: "absolute", left: "460px", top: "100px" }}
+          className="imgBcryptIcon"
             src={BcryptIcon}
             height={90}
             width={110}
@@ -309,7 +292,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Durante minha atuação na empresa, utilizei JSON Web Tokens (JWT) para implementar autenticação e controle de acesso em nossas aplicações web. JWT é uma solução segura e eficiente para autenticação de usuários, fornecendo uma forma escalável e confiável de gerenciamento de sessões.">
           <img
-            style={{ position: "absolute", left: "850px", top: "100px" }}
+          className="imgJsonWeb"
             src={JsonWebTokenIcon}
             height={90}
             width={200}
@@ -317,20 +300,20 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
         </Tooltip>
         <Tooltip title="Tenho experiência sólida na utilização do padrão MVC (Model-View-Controller) para desenvolvimento backend, facilitando a separação de responsabilidades, a manutenção e a escalabilidade das aplicações. Trabalhei em projetos onde implementei o MVC para organizar o código de forma eficiente e promover uma arquitetura limpa e sustentável..">
           <img
-            style={{ position: "absolute", left: "1060px", top: "60px" }}
+          className="imgMVC"
             src={MVC}
             height={150}
             width={200}
           />
         </Tooltip>
-        <Tooltip title="Tenho ampla experiência no desenvolvimento de APIs RESTful utilizando Node.js e MySQL, facilitando a criação de serviços backend eficientes e escaláveis. Minhas responsabilidades incluíram a definição de endpoints, a implementação de lógica de negócios, a interação com bancos de dados MySQL e a garantia de segurança e desempenho da API.">
+        {/* <Tooltip title="Tenho ampla experiência no desenvolvimento de APIs RESTful utilizando Node.js e MySQL, facilitando a criação de serviços backend eficientes e escaláveis. Minhas responsabilidades incluíram a definição de endpoints, a implementação de lógica de negócios, a interação com bancos de dados MySQL e a garantia de segurança e desempenho da API.">
           <img
             style={{ position: "absolute", left: "1260px", top: "60px" }}
             src={RestfullApi}
             height={140}
             width={220}
           />
-        </Tooltip>
+        </Tooltip> */}
       </Card>
       <Card
         style={{
