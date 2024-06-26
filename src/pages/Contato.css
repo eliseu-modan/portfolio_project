@@ -75,3 +75,11 @@
 .form-group {
     width: 400px;
 }
+@media (max-width:626px){
+    #contato{
+        left: -200px;
+        top: 100px;
+    }
+   
+   
+}

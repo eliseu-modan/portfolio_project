@@ -192,12 +192,12 @@
 }
 @media (max-width:626px){
     .position{
-        width:590px;
+        width:390px;
         left: 10px;
         top: 100px;
     }
     .card{
-        width: 530px;
+        width: 330px;
     }
    
 }
