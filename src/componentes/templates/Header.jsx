@@ -9,14 +9,7 @@ import "../../main/App.css";
 export default (props) => (
   <header className="header">
     <img
-      style={{
-        position: "absolute",
-        left: "29%",
-        top: "60px",
-        width: "45%",
-        borderRadius: "30px",
-        opacity: "88%",
-      }}
+      className="logo1"
       src={Logo1}
       width={230}
     />

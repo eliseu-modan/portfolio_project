@@ -82,6 +82,14 @@
         border-radius: 30px;
     }
  
+    .logo1{
+      position:absolute;
+      left: 29%;
+      top: 60px;
+      width: 45%;
+      border-Radius: 30px;
+      opacity: 88%;
+    }
     @media (max-width:1470px){
       #icon_facebook, #Git_icon,#icon_linkedin{
       top: 350px;
@@ -204,27 +212,29 @@
   }
   #icon_facebook, #Git_icon, #icon_linkedin{
     top: 430px;
-left: 10px;
+left: -160px;
   }
   .nameOne{
-    left:170px;
+    left:5px;
     top: 470px ;
     font-size: 16px;
 
    }
    .nameTwo{
-     left: 170px;
+     left: 5px;
      top: 490px;
      font-size: 16px;
      z-index: 9;
 
    }
    .nameTree{
-     left: 170px;
+     left: 5px;
      font-size: 16px;
      top: 510px;
 z-index: 9;
 
    }
- 
+.logo1{
+  left: 1%;
+} 
 }
