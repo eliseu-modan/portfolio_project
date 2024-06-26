@@ -199,6 +199,7 @@
   .header{
     position: relative;
       width:620px;
+      z-index: 9;
       
   }
   #icon_facebook, #Git_icon, #icon_linkedin{
