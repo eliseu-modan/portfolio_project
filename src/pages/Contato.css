@@ -76,10 +76,84 @@
     width: 400px;
 }
 @media (max-width:626px){
-    #contato{
-        left: -240px;
-        top: 100px;
+    #contato {
+        position: absolute;
+        top: 30px;
+        background-color: #ffffff;
+        padding-right: 800px;
     }
-   
+    
+    #formulario {
+        position: absolute;
+        background-color: #ffffff;
+        left: -50px;
+        top: 40px;
+        width: 300px;
+    }
+    
+    #placeNome {
+        position: absolute;
+        top: 40px;
+        left: 220px;
+        height: 30px;
+        text-align: center;
+        border: solid 0.1px rgb(158, 158, 158);
+    
+    }
+    
+    #placeEmail {
+        position: absolute;
+        top: 110px; 
+        left: 220px;
+        height: 30px;
+        text-align: center;
+        border: solid 0.1px rgb(158, 158, 158);
+    }
+    
+    #areaTexto {
+        position: absolute;
+        top: 170px; 
+        left: 70px;
+        width: 320px;
+        font-size: larger;
+    }
+    
+    .submitFormulario {
+        position: absolute;
+        left: 70px;
+        padding: 5px;
+        font-size: larger;
+        top: 300px; 
+        padding-left: 60px;
+        padding-right: 60px;
+        color: rgb(255, 255, 255);
+        width: 320px;
+        background-color: blue;
+    }
+    
+    #digitarEmail {
+        position: absolute;
+        left: 50px;
+        top: 70px;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+    
+    #digitarNome {
+        position: absolute;
+        left: 50px;
+        top: 0px; 
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+    
+    .form-group {
+        width: 400px;
+    }
+
    
 }
