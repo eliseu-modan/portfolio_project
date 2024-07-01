@@ -1,11 +1,11 @@
 .position{
     position: absolute;
     top: 80px;
-    left:640px;
+    left:610px;
     z-index: 9;
     background-color: rgb(233, 233, 233);
     /* padding:200px ; */
-    width:950px;
+    width:890px;
     height: 530px;
     overflow-y: scroll;
     
@@ -36,11 +36,11 @@
 .card {
     position: relative;
     top: 30px;
-    width: 930px;
+    width: 800px;
     left: 30px;
     margin-bottom: 20px;
   }
-@media (max-width:1560px){
+@media (max-width:1490px){
     .position{
         width:690px;
         left: 630px;
