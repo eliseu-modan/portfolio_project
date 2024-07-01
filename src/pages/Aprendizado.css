@@ -1,3 +1,6 @@
+
+
+
 .imgJS,.imgC,.imgJAVA,.imgTypeScript,.imgReact,
 .imgAntdIcon,.imgCSS,.imgHtml,.imgJson,.imgPrisma,
 .imgBcryptIcon,.imgExpress,.imgJsonWeb,.imgDocker{
@@ -159,40 +162,40 @@ left: 850px
 .cardLinguagens{
     position: absolute;
           top: 30px;
-          width: 830px;
+          width: 930px;
           left: 30px
 }
 .cardFrontEnd{
     position:absolute;
     top: 290px;
-    width: 830px;
+    width: 930px;
     left: 30px
 }
 .cardBackEnd{
     position: absolute;
     top: 550px;
-    width: 830px;
+    width: 930px;
     left: 30px;
     overflow-X: scroll;
 }
 .cardDevOps{
     position: absolute;
     top:830px;
-    width: 830px;
+    width: 930px;
     left: 30px;
     overflow-X: scroll
 }
 .cardQualitySoftware{
     position: absolute;
           top: 1160px;
-          width: 830px;
+          width: 930px;
           left: 30px;
           overflow-X: scroll
 }
 .cardModelagem{
     position: absolute;
     top: 1580px;
-    width: 830px;
+    width: 930px;
     left: 30px;
 }
 
