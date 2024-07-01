@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { Card, Button } from "antd";
 import "../pages/Aprendizado.css";
 import { Tooltip } from "antd";
-import { Divider } from "antd";
+import { Divider,Alert } from "antd";
 import JS from "../componentes/imgs/image.png";
 import C from "../componentes/imgs/c-.png";
 import JAVA from "../componentes/imgs/java.png";
@@ -52,6 +52,22 @@ function Aprendizado() {
   const [animationFrameBackEnd, setAnimationFrameBackEnd] = useState(null);
   const [animationFrameDevOps, setAnimationFrameDevOps] = useState(null);
   const [animationFrameQuality, setAnimationFrameQuality] = useState(null);
+  const [alertVisible, setAlertVisible] = useState(true);
+
+  const closeModalAlert = () => {
+    setAlertVisible(false); 
+  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      closeModalAlert(); 
+      clearInterval(interval); 
+    }, 5000); 
+
+    return () => {
+      clearInterval(interval); 
+    };
+  }, []);
+
 
   useEffect(() => {
     const scrollRight = (ref) => {
@@ -113,8 +129,19 @@ function Aprendizado() {
   const handleScrollQualityClick = () => {
     setScrollingQuality(!scrollingQuality);
   };
+
   return (
     <div className="position">
+      {alertVisible && (
+        <Alert
+          message="ALERTA !! "
+          description="Clique sobre a imagem para mais detalhes da Tecnologia selecionada"
+          type="info"
+          showIcon
+          onClose={closeModalAlert} 
+          style={{ zIndex: "9" }}
+        />
+      )}
       <Card className="cardLinguagens">
         <div style={{ height: "180px", fontSize: "16px" }}>
           <b>Linguagens de Programação</b>
@@ -137,7 +164,7 @@ function Aprendizado() {
               src={TypeScript}
               height={80}
               width={80}
-            />
+              />
           </Tooltip>
         </div>
       </Card>
@@ -158,7 +185,7 @@ function Aprendizado() {
             src={WebSocketicon}
             height={75}
             width={100}
-          />
+            />
         </Tooltip>
         <Tooltip title="Utilizei CSS para estilizar e dar forma às nossas interfaces de usuário. Através do CSS, conseguimos criar layouts atraentes e responsivos, aplicar estilos visuais e personalizar a aparência dos elementos da nossa aplicação. Utilizamos técnicas modernas de CSS, como Flexbox e Grid, para criar layouts flexíveis e eficientes, garantindo uma experiência consistente em diferentes dispositivos e tamanhos de tela">
           <img className="imgCSS" src={css} height={90} width={90} />
@@ -168,11 +195,11 @@ function Aprendizado() {
         </Tooltip>
         <Tooltip
           title="No frontend das nossas aplicações em React, o JSON foi fundamental para:
-       Enviar e receber dados entre componentes React.
-Integrar informações do backend nas aplicações.
-Atualizar dinamicamente o conteúdo das páginas com dados JSON recebidos em respostas de requisições.
-Facilitar a manipulação e processamento de dados estruturados, garantindo uma experiência de usuário dinâmica e responsiva."
-        >
+          Enviar e receber dados entre componentes React.
+          Integrar informações do backend nas aplicações.
+          Atualizar dinamicamente o conteúdo das páginas com dados JSON recebidos em respostas de requisições.
+          Facilitar a manipulação e processamento de dados estruturados, garantindo uma experiência de usuário dinâmica e responsiva."
+          >
           <img className="imgJson" src={json} height={90} width={87} />
         </Tooltip>
       </Card>
@@ -187,7 +214,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
               left: "84%",
               top: "10%",
             }}
-          >
+            >
             <b>{scrollingBackEnd ? "Parar Rolagem" : "Iniciar Rolagem"}</b>
           </Button>
           <b>Back-End</b>
@@ -205,7 +232,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={sequelizeIcon}
             height={100}
             width={130}
-          />
+            />
         </Tooltip>
         <Tooltip title="No meu trabalho de desenvolvimento, utilizei o MySQL como sistema de gerenciamento de banco de dados para armazenar e gerenciar dados de forma eficiente e escalável. MySQL é uma escolha popular devido à sua robustez, facilidade de uso e desempenho.">
           <img
@@ -213,7 +240,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={mysqlIcon}
             height={120}
             width={110}
-          />
+            />
         </Tooltip>
         <Tooltip title="No meu trabalho de desenvolvimento, utilizei o DBeaver como uma ferramenta de gerenciamento de banco de dados para facilitar a interação e administração de diversos sistemas de banco de dados. O DBeaver oferece uma interface gráfica poderosa e intuitiva que simplifica a execução de tarefas de gerenciamento e consulta de dados.">
           <img
@@ -221,7 +248,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={DBeaverIcon}
             height={110}
             width={140}
-          />
+            />
         </Tooltip>
         <Tooltip title="utilizei o bcrypt para garantir a segurança das senhas dos usuários. O bcrypt é uma biblioteca poderosa para hashing de senhas, amplamente utilizada devido à sua capacidade de gerar hashes seguros e de ser resistente a ataques de força bruta.">
           <img
@@ -229,7 +256,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={BcryptIcon}
             height={90}
             width={110}
-          />
+            />
         </Tooltip>
         <Tooltip title="Durante minha atuação na empresa, utilizei JSON Web Tokens (JWT) para implementar autenticação e controle de acesso em nossas aplicações web. JWT é uma solução segura e eficiente para autenticação de usuários, fornecendo uma forma escalável e confiável de gerenciamento de sessões.">
           <img
@@ -237,19 +264,19 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={JsonWebTokenIcon}
             height={90}
             width={200}
-          />
+            />
         </Tooltip>
         <Tooltip title="Tenho experiência sólida na utilização do padrão MVC (Model-View-Controller) para desenvolvimento backend, facilitando a separação de responsabilidades, a manutenção e a escalabilidade das aplicações. Trabalhei em projetos onde implementei o MVC para organizar o código de forma eficiente e promover uma arquitetura limpa e sustentável..">
           <img className="imgMVC" src={MVC} height={150} width={200} />
         </Tooltip>
         {/* <Tooltip title="Tenho ampla experiência no desenvolvimento de APIs RESTful utilizando Node.js e MySQL, facilitando a criação de serviços backend eficientes e escaláveis. Minhas responsabilidades incluíram a definição de endpoints, a implementação de lógica de negócios, a interação com bancos de dados MySQL e a garantia de segurança e desempenho da API.">
           <img
-            style={{ position: "absolute", left: "1260px", top: "60px" }}
-            src={RestfullApi}
-            height={140}
-            width={220}
+          style={{ position: "absolute", left: "1260px", top: "60px" }}
+          src={RestfullApi}
+          height={140}
+          width={220}
           />
-        </Tooltip> */}
+          </Tooltip> */}
       </Card>
       <Card className="cardDevOps" ref={devOpsRef}>
         <div style={{ height: "250px", fontSize: "20px" }}>
@@ -262,7 +289,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
               left: "84%",
               top: "10%",
             }}
-          >
+            >
             <b>{scrollingDevOps ? "Parar Rolagem" : "Iniciar Rolagem"}</b>
           </Button>
           <b>DevOps</b>
@@ -274,7 +301,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={AnsibleIcon}
             height={120}
             width={150}
-          />
+            />
         </Tooltip>
         <Tooltip title="Tenho uma experiência robusta na utilização de Docker para a containerização de aplicações e gestão de ambientes em máquinas virtuais (VMs) no contexto DevOps. Minhas responsabilidades incluíram a criação de imagens Docker, orquestração de containers e implementação de pipelines de CI/CD, resultando em ambientes mais ágeis, escaláveis e consistentes.">
           <img className="imgDocker" src={Docker} height={110} width={225} />
@@ -294,7 +321,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={Kubernets}
             height={90}
             width={140}
-          />
+            />
         </Tooltip>
         <Tooltip title="Tenho experiência significativa na utilização do SonarQube para análise estática de código, assegurando a qualidade e a segurança das aplicações. Minhas responsabilidades incluíram a configuração e manutenção do SonarQube, integração com pipelines de CI/CD e a implementação de políticas de qualidade de código.">
           <img className="imgSonar" src={SonarQube} height={100} width={130} />
@@ -305,7 +332,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={VirtualBox}
             height={90}
             width={170}
-          />
+            />
         </Tooltip>
       </Card>
       <Card className="cardQualitySoftware" ref={qualityRef}>
@@ -319,7 +346,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
               left: "84%",
               top: "10%",
             }}
-          >
+            >
             <b>{scrollingQuality ? "Parar Rolagem" : "Iniciar Rolagem"}</b>
           </Button>
           <b>Qualidade de Software</b>
@@ -331,7 +358,7 @@ Facilitar a manipulação e processamento de dados estruturados, garantindo uma 
             src={cleanCode}
             height={120}
             width={110}
-          />
+            />
         </Tooltip>
         <Tooltip title="Tenho experiência significativa na prática de Desenvolvimento Orientado a Testes (TDD), o que me permitiu escrever código mais confiável e fácil de manter. A abordagem TDD ajudou a melhorar a qualidade do software, reduzir bugs e aumentar a eficiência no desenvolvimento.">
           <img className="imgTDD" src={TDD} height={145} width={280} />
