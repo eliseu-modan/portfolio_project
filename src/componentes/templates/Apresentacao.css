@@ -67,7 +67,7 @@ left: 70px;
 @media (max-width:626px){
     .apresentação{
    background-color:  rgb(30, 30, 30);
-   left: -180px;
+   left: -210px;
    z-index: 9;
     }
    

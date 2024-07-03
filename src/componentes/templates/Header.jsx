@@ -11,7 +11,7 @@ export default (props) => (
     <img
       className="logo1"
       src={Logo1}
-      width={230}
+      width={"50%"}
     />
     <div className="nameOne">Engenheiro de Software</div>
     <div className="nameTwo">Desenvolvedor Full-Stack</div>
