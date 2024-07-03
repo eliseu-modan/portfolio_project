@@ -134,29 +134,29 @@
       left: 26%;
       top: 60px;
       width: 50%;
-      height: 30%;
+      height: 35%;
       border-Radius: 10px;
       opacity: 88%;
     }
     }
     @media (max-width:980px){
       #icon_facebook, #Git_icon, #icon_linkedin{
-        top: 220px;
+        top: 280px;
       }
       .nameOne{
         left: 95px;
-        top: 250px ;
+        top: 350px ;
    font-size: 14px;
        }
        .nameTwo{
         left: 100px;
-        top: 280px ;
+        top: 380px ;
    font-size: 14px;
    
        }
        .nameTree{
         left: 100px;
-        top: 310px ;
+        top: 410px ;
    font-size: 14px;
    
    
@@ -166,31 +166,31 @@
         left: 26%;
         top: 60px;
         width: 50%;
-        height: 25%;
+        height: 35%;
         border-Radius: 10px;
         opacity: 88%;
       }
     }
     @media (max-width:909px){
       #icon_facebook, #Git_icon, #icon_linkedin{
-        top: 230px;
+        top: 280px;
       }
       .nameOne{
         left: 75px;
-        top: 270px ;
+        top: 370px ;
         font-size: 12px;
 
        }
        .nameTwo{
          left: 80px;
-         top: 300px;
+         top: 400px;
          font-size: 12px;
 
        }
        .nameTree{
          left: 80px;
          font-size: 12px;
-         top: 330px
+         top: 430px
    
    
        }
@@ -199,7 +199,7 @@
         left: 26%;
         top: 60px;
         width: 50%;
-        height: 24%;
+        height: 35%;
         border-Radius: 10px;
         opacity: 88%;
       }
@@ -207,24 +207,24 @@
  
   @media (max-width:784px){
     #icon_facebook, #Git_icon, #icon_linkedin{
-      top: 190px;
+      top: 290px;
     }
     .nameOne{
       left: 72px;
-      top: 210px ;
+      top: 310px ;
       font-size: 8px;
 
      }
      .nameTwo{
        left: 72px;
-       top: 230px;
+       top: 330px;
        font-size: 8px;
 
      }
      .nameTree{
        left: 72px;
        font-size: 8px;
-       top: 250px
+       top: 350px
  
  
        
@@ -234,7 +234,7 @@
       left: 26%;
       top: 60px;
       width: 50%;
-      height: 20%;
+      height: 30%;
       border-Radius: 10px;
       opacity: 88%;
     }
