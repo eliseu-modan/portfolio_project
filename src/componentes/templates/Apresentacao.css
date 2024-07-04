@@ -1,8 +1,9 @@
 .apresentação {
     position: relative;
     left: 40px;
-    top: -170%;
-    
+    top: 0%;
+    background-color:#c1c1c1;
+
     /* height: 20px; */
 }
 
@@ -13,7 +14,7 @@
     border-right: 9px solid rgb(255, 255, 255);
     position: relative;
     left: 290px;
-    top: 90px;
+    /* top: 90px; */
     white-space: nowrap;
     overflow: hidden;
     font-size: 10px;
@@ -65,10 +66,17 @@ left: 70px;
 }
 }
 @media (max-width:626px){
+
+
+
+
     .apresentação{
+        position: absolute;
    background-color:  rgb(30, 30, 30);
-   left: -210px;
+   left: -30px;
+   top:640px;
    z-index: 9;
+   width: 0px;
     }
    
 }
