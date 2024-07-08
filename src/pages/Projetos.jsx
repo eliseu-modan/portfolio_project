@@ -13,7 +13,7 @@ function prop() {
       <Card className="card">
         <div style={{ height: "80px", position: "relative", fontSize: "20px" }}>
           <b>Portfolio</b>
-          <a href="https://github.com/eliseu-modan/Projeto-Portfolio">
+          <a href="https://github.com/eliseu-modan/Projeto_Portfolio">
             <img className="git" src={GIT} height={50} width={50} />
           </a>
           <a href="https://youtu.be/JR-AiUjV3UY">
