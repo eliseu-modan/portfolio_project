@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Projeto_Portfolio/static/css/main.51ba22d7.css",
-    "main.js": "/Projeto_Portfolio/static/js/main.5610fe8b.js",
+    "main.css": "/Projeto_Portfolio/static/css/main.0a659846.css",
+    "main.js": "/Projeto_Portfolio/static/js/main.8df527af.js",
     "static/js/787.b8661bb6.chunk.js": "/Projeto_Portfolio/static/js/787.b8661bb6.chunk.js",
     "static/media/prismaIcon.png": "/Projeto_Portfolio/static/media/prismaIcon.26ac1eb347014a0acba0.png",
-    "static/media/PORTFOLIO.png": "/Projeto_Portfolio/static/media/PORTFOLIO.a880312106a447d700e9.png",
+    "static/media/PORTFOLIO.png": "/Projeto_Portfolio/static/media/PORTFOLIO.85f9b7feae4124539cc0.png",
     "static/media/sequelizeIcon.png": "/Projeto_Portfolio/static/media/sequelizeIcon.b0684179f059e29cf033.png",
     "static/media/pipeline.png": "/Projeto_Portfolio/static/media/pipeline.204a8a99e4f99978563f.png",
     "static/media/MVC.png": "/Projeto_Portfolio/static/media/MVC.adf1a43414e224925f0d.png",
     "static/media/BcryptIcon.jpeg": "/Projeto_Portfolio/static/media/BcryptIcon.82d62960bfb682d921d7.jpeg",
+    "static/media/Logo1.jpg.png": "/Projeto_Portfolio/static/media/Logo1.jpg.99a3ef47d90c778f8b8a.png",
     "static/media/addTask.png": "/Projeto_Portfolio/static/media/addTask.448a03d95b4ad72a301a.png",
     "static/media/mysqlIcon.jpg": "/Projeto_Portfolio/static/media/mysqlIcon.91847edbe06dae703d0f.jpg",
     "static/media/jenkins.png": "/Projeto_Portfolio/static/media/jenkins.8d07a548423c9d75c555.png",
     "static/media/cleanCode.jpg": "/Projeto_Portfolio/static/media/cleanCode.35365261f7af79c989ed.jpg",
-    "static/media/Logo1.jpg": "/Projeto_Portfolio/static/media/Logo1.bf0d576e7b898dd1ebea.jpg",
     "static/media/Kubernetes-Logo.png": "/Projeto_Portfolio/static/media/Kubernetes-Logo.c9c13f02a3279ff098bd.png",
     "static/media/nodeExpress.jpg": "/Projeto_Portfolio/static/media/nodeExpress.4d52ee6b281ab0a26678.jpg",
     "static/media/rest.jpg": "/Projeto_Portfolio/static/media/rest.e27b495d2d942da7b07f.jpg",
@@ -39,12 +39,12 @@
     "static/media/typescript.png": "/Projeto_Portfolio/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/SonarQube.png": "/Projeto_Portfolio/static/media/SonarQube.1b2e27b9545f53570736.png",
     "index.html": "/Projeto_Portfolio/index.html",
-    "main.51ba22d7.css.map": "/Projeto_Portfolio/static/css/main.51ba22d7.css.map",
-    "main.5610fe8b.js.map": "/Projeto_Portfolio/static/js/main.5610fe8b.js.map",
+    "main.0a659846.css.map": "/Projeto_Portfolio/static/css/main.0a659846.css.map",
+    "main.8df527af.js.map": "/Projeto_Portfolio/static/js/main.8df527af.js.map",
     "787.b8661bb6.chunk.js.map": "/Projeto_Portfolio/static/js/787.b8661bb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51ba22d7.css",
-    "static/js/main.5610fe8b.js"
+    "static/css/main.0a659846.css",
+    "static/js/main.8df527af.js"
   ]
 }
