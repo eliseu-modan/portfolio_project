@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import Logo1 from "../imgs/Logo1.jpg";
+import Logo1 from "../imgs/Logo1.jpg.png";
 import "../templates/Header.css";
 import linkedin from "../imgs/linkedin.png";
 import Facebook from "../imgs/iconFacebook.png";
@@ -12,6 +12,7 @@ export default (props) => (
       className="logo1"
       src={Logo1}
       width={"50%"}
+      
     />
     <div className="nameOne">Engenheiro de Software</div>
     <div className="nameTwo">Desenvolvedor Full-Stack</div>
