@@ -1,10 +1,8 @@
 import "./App.css";
 import React from "react";
-import Cabecalho from "../componentes/templates/Header";
-import Apresentacao from "../componentes/templates/Apresentacao";
+import ComponentHeader from "../componentes/templates/Header";
+import Apresentation from "../componentes/templates/Apresentation";
 import Menu from "../componentes/templates/Menu";
-
-import Projetos from "../pages/Projetos";
 import { Layout, Flex } from "antd";
 const { Header, Footer, Sider, Content } = Layout;
 const App = () => {
@@ -36,9 +34,7 @@ const App = () => {
   };
   const footerStyle = {
     textAlign: "center",
-    // color: "#8c8c8",
     backgroundColor: "#c1c1c1",
-    // left: "20px",
     padding: "20px",
   };
   const layoutStyle = {
@@ -52,7 +48,7 @@ const App = () => {
     <Flex gap="middle" wrap="wrap">
       <Layout style={layoutStyle}>
         <Sider width="35.9%" style={siderStyle}>
-          <Cabecalho />
+          <ComponentHeader />
         </Sider>
         <Layout>
           <Header style={headerStyle}>
@@ -62,7 +58,7 @@ const App = () => {
           <Content style={contentStyle}></Content>
           <Footer style={footerStyle}>
             {" "}
-            <Apresentacao />
+            <Apresentation />
           </Footer>
         </Layout>
       </Layout>

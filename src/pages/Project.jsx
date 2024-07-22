@@ -1,5 +1,5 @@
 import React from "react";
-import "../pages/Projetos.css";
+import "../pages/Project.css";
 import { Card } from "antd";
 import Portfolio from "../componentes/imgs/PORTFOLIO.png";
 import GIT from "../componentes/imgs/Git_icon.png";

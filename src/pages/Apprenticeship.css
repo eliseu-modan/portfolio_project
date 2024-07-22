@@ -189,12 +189,14 @@ left: 850px
     position: absolute;
           top: 1160px;
           width: 830px;
+          height: 300px;
           left: 30px;
-          overflow-X: scroll
+          overflow-X: scroll;
+          overflow-Y: hidden
 }
 .cardModelagem{
     position: absolute;
-    top: 1580px;
+    top: 1480px;
     width: 830px;
     left: 30px;
 }
@@ -232,7 +234,7 @@ left: 850px
     }
     .cardModelagem{
         position: absolute;
-        top: 1580px;
+        top: 1480px;
         width: 350px;
         left: 10px;
     }

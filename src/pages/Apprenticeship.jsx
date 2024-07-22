@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Card, Button } from "antd";
-import "../pages/Aprendizado.css";
+import "../pages/Apprenticeship.css";
 import { Tooltip } from "antd";
 import { Divider,Alert } from "antd";
 import JS from "../componentes/imgs/image.png";
@@ -38,96 +38,12 @@ import UI from "../componentes/imgs/ui.png";
 import FIgma from "../componentes/imgs/figma.png";
 import UML from "../componentes/imgs/uml.jpeg";
 import MVC from "../componentes/imgs/MVC.png";
-import RestfullApi from "../componentes/imgs/rest.jpg";
 
-function Aprendizado() {
-  const backEndRef = useRef(null);
-  const devOpsRef = useRef(null);
-  const qualityRef = useRef(null);
-
-  const [scrollingBackEnd, setScrollingBackEnd] = useState(false);
-  const [scrollingDevOps, setScrollingDevOps] = useState(false);
-  const [scrollingQuality, setScrollingQuality] = useState(false);
-
-  const [animationFrameBackEnd, setAnimationFrameBackEnd] = useState(null);
-  const [animationFrameDevOps, setAnimationFrameDevOps] = useState(null);
-  const [animationFrameQuality, setAnimationFrameQuality] = useState(null);
-  const [alertVisible, setAlertVisible] = useState(true);
+function Apprenticeship() {
+const [alertVisible, setAlertVisible]= useState(false)
 
   const closeModalAlert = () => {
     setAlertVisible(false); 
-  };
-  useEffect(() => {
-    const interval = setInterval(() => {
-      closeModalAlert(); 
-      clearInterval(interval); 
-    }, 5000); 
-
-    return () => {
-      clearInterval(interval); 
-    };
-  }, []);
-
-
-  useEffect(() => {
-    const scrollRight = (ref) => {
-      const element = ref.current;
-      if (element) {
-        element.scrollLeft += 3;
-      }
-    };
-    const animationScrollQuality = () => {
-      if (scrollingQuality) {
-        scrollRight(qualityRef);
-        setAnimationFrameQuality(requestAnimationFrame(animationScrollQuality));
-      }
-    };
-    const animateScrollBackEnd = () => {
-      if (scrollingBackEnd) {
-        scrollRight(backEndRef);
-        setAnimationFrameBackEnd(requestAnimationFrame(animateScrollBackEnd));
-      }
-    };
-
-    const animateScrollDevOps = () => {
-      if (scrollingDevOps) {
-        scrollRight(devOpsRef);
-        setAnimationFrameDevOps(requestAnimationFrame(animateScrollDevOps));
-      }
-    };
-    if (scrollingBackEnd) {
-      setAnimationFrameBackEnd(requestAnimationFrame(animateScrollBackEnd));
-    } else {
-      cancelAnimationFrame(animationFrameBackEnd);
-    }
-
-    if (scrollingDevOps) {
-      setAnimationFrameDevOps(requestAnimationFrame(animateScrollDevOps));
-    } else {
-      cancelAnimationFrame(animationFrameDevOps);
-    }
-    if (scrollingQuality) {
-      setAnimationFrameQuality(requestAnimationFrame(animationScrollQuality));
-    } else {
-      cancelAnimationFrame(animationFrameQuality);
-    }
-
-    return () => {
-      cancelAnimationFrame(animationFrameBackEnd);
-      cancelAnimationFrame(animationFrameDevOps);
-      cancelAnimationFrame(animationFrameQuality);
-    };
-  }, [scrollingBackEnd, scrollingDevOps, scrollingQuality]);
-
-  const handleScrollBackEndClick = () => {
-    setScrollingBackEnd(!scrollingBackEnd);
-  };
-
-  const handleScrollDevOpsClick = () => {
-    setScrollingDevOps(!scrollingDevOps);
-  };
-  const handleScrollQualityClick = () => {
-    setScrollingQuality(!scrollingQuality);
   };
 
   return (
@@ -203,11 +119,9 @@ function Aprendizado() {
           <img className="imgJson" src={json} height={90} width={87} />
         </Tooltip>
       </Card>
-      <Card className="cardBackEnd" ref={backEndRef}>
+      <Card className="cardBackEnd">
         <div style={{ height: "190px", fontSize: "20px" }}>
           <Button
-            id="buttonBackEnd"
-            onClick={handleScrollBackEndClick}
             style={{
               position: "absolute",
               top: "10px",
@@ -215,7 +129,6 @@ function Aprendizado() {
               top: "10%",
             }}
             >
-            <b>{scrollingBackEnd ? "Parar Rolagem" : "Iniciar Rolagem"}</b>
           </Button>
           <b>Back-End</b>
           <Divider style={{ background: "#e6e6e6" }} />
@@ -269,20 +182,11 @@ function Aprendizado() {
         <Tooltip title="Tenho experiência sólida na utilização do padrão MVC (Model-View-Controller) para desenvolvimento backend, facilitando a separação de responsabilidades, a manutenção e a escalabilidade das aplicações. Trabalhei em projetos onde implementei o MVC para organizar o código de forma eficiente e promover uma arquitetura limpa e sustentável..">
           <img className="imgMVC" src={MVC} height={150} width={200} />
         </Tooltip>
-        {/* <Tooltip title="Tenho ampla experiência no desenvolvimento de APIs RESTful utilizando Node.js e MySQL, facilitando a criação de serviços backend eficientes e escaláveis. Minhas responsabilidades incluíram a definição de endpoints, a implementação de lógica de negócios, a interação com bancos de dados MySQL e a garantia de segurança e desempenho da API.">
-          <img
-          style={{ position: "absolute", left: "1260px", top: "60px" }}
-          src={RestfullApi}
-          height={140}
-          width={220}
-          />
-          </Tooltip> */}
+
       </Card>
-      <Card className="cardDevOps" ref={devOpsRef}>
+      <Card className="cardDevOps">
         <div style={{ height: "250px", fontSize: "20px" }}>
           <Button
-            id="buttondevOps"
-            onClick={handleScrollDevOpsClick}
             style={{
               position: "absolute",
               top: "10px",
@@ -290,7 +194,6 @@ function Aprendizado() {
               top: "10%",
             }}
             >
-            <b>{scrollingDevOps ? "Parar Rolagem" : "Iniciar Rolagem"}</b>
           </Button>
           <b>DevOps</b>
           <Divider style={{ background: "#e6e6e6" }} />
@@ -335,11 +238,9 @@ function Aprendizado() {
             />
         </Tooltip>
       </Card>
-      <Card className="cardQualitySoftware" ref={qualityRef}>
+      <Card className="cardQualitySoftware" >
         <div style={{ height: "350px", fontSize: "20px" }}>
           <Button
-            id="buttonQuality"
-            onClick={handleScrollQualityClick}
             style={{
               position: "absolute",
               top: "10px",
@@ -347,7 +248,6 @@ function Aprendizado() {
               top: "10%",
             }}
             >
-            <b>{scrollingQuality ? "Parar Rolagem" : "Iniciar Rolagem"}</b>
           </Button>
           <b>Qualidade de Software</b>
           <Divider style={{ background: "#e6e6e6" }} />
@@ -397,4 +297,4 @@ function Aprendizado() {
   );
 }
 
-export default Aprendizado;
+export default Apprenticeship;

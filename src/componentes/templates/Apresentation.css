@@ -1,28 +1,21 @@
-.apresentação {
+.apresentation {
     position: relative;
     left: 40px;
     top: 0%;
-    background-color:#c1c1c1;
-
-    /* height: 20px; */
+    background-color: #c1c1c1;
 }
 
-
-
-
-.nomeApres{
-    border-right: 9px solid rgb(255, 255, 255);
+.displayName {
     position: relative;
     left: 290px;
-    /* top: 90px; */
     white-space: nowrap;
     overflow: hidden;
     font-size: 10px;
     color: rgb(0, 0, 0);
-    background-color:#c1c1c1;
+    background-color: #c1c1c1;
     border-radius: 10px;
     padding-left: 20px;
-
+    border-right: 9px solid rgb(255, 255, 255);
 }
 
 .typing-animation {
@@ -31,52 +24,35 @@
 
 @keyframes typing {
     from {
-        animation-timing-function: ease-in-out;
         width: 0;
-
     }
-
     to {
-
         width: 27em;
     }
 }
 
 @keyframes blinkCursor {
     from {
-
         border-right-color: #222bd6;
     }
-
     to {
         border-right-color: transparent;
     }
 }
 
-
-#posdes {
-    position: relative;
-    left: 100px;
-    top: 60px;
-}
-
-@media (max-width:1235px){
-.nomeApres{
-left: 70px;
-}
-}
-@media (max-width:626px){
-
-
-
-
-    .apresentação{
-        position: absolute;
-   background-color:  rgb(30, 30, 30);
-   left: -30px;
-   top:640px;
-   z-index: 9;
-   width: 0px;
+@media (max-width: 1235px) {
+    .displayName {
+        left: 70px;
     }
-   
+}
+
+@media (max-width: 626px) {
+    .apresentation {
+        position: absolute;
+        left: -30px;
+        top: 640px;
+        z-index: 9;
+        width: 0;
+        background-color: rgb(30, 30, 30);
+    }
 }

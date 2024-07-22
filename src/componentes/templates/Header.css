@@ -10,7 +10,7 @@
     color: aliceblue;
 }
 
-  .nameOne{
+  .descriptionOne{
     position: relative;
     font-size: 18px;
     color: rgb(159, 159, 159);
@@ -21,7 +21,7 @@
     background-color: black;
     opacity: 90%;
   }
-  .nameTwo{
+  .descriptionTwo{
     position: relative;
     font-size: 16.6px;
     color: rgb(159, 159, 159);
@@ -32,7 +32,7 @@
     background-color: black;
     opacity: 90%;
   }
-  .nameTree{
+  .descriptionTree{
     position: relative;
     font-size: 16.5px;
     color: rgb(159, 159, 159);
@@ -49,7 +49,6 @@
         position: relative;
         top: 370px;
         left: -0px;
-        /* background-color: black; */
         margin: 0px;
         border-radius: 30px;
     }
@@ -72,16 +71,16 @@
         border-radius: 30px;
     }
  
-    .logo1 {
+    .logo {
       position: absolute;
       left: 26%;
       top: 40px;
-      width: 50%; /* Ajuste conforme necessário */
-      height: auto; /* Mantenha a altura automática para evitar distorções */
-      border-radius: 50%; /* Torna a imagem circular */
-      opacity: 0.88; /* Valor de opacidade entre 0 (transparente) e 1 (opaco) */
+      width: 50%; 
+      height: auto; 
+      border-radius: 50%; 
+      opacity: 0.88; 
   }
-  .logo1 img {
+  .logo img {
     width: 100%;
     height: auto;
     display: block;
@@ -90,29 +89,29 @@
       #icon_facebook, #Git_icon,#icon_linkedin{
       top: 350px;
     }
-    .nameOne{
+    .descriptionOne{
       left: 130px;
       top: 390px ;
      }
-     .nameTwo{
+     .descriptionTwo{
       left: 130px;
       top: 450px
      }
-     .nameTree{
+     .descriptionTree{
       left: 130px;
       top: 420px
 
      }
-     .logo1 {
+     .logo {
       position: absolute;
       left: 26%;
       top: 40px;
-      width: 50%; /* Ajuste conforme necessário */
-      height: auto; /* Mantenha a altura automática para evitar distorções */
-      border-radius: 50%; /* Torna a imagem circular */
-      opacity: 0.88; /* Valor de opacidade entre 0 (transparente) e 1 (opaco) */
+      width: 50%; 
+      height: auto; 
+      border-radius: 50%; 
+      opacity: 0.88; 
   }
-  .logo1 img {
+  .logo img {
     width: 100%;
     height: auto;
     display: block;
@@ -123,32 +122,32 @@
       #icon_facebook, #Git_icon, #icon_linkedin{
       top: 290px;
     }
-    .nameOne{
+    .descriptionOne{
      left: 120px;
      top: 340px ;
 
     }
-    .nameTwo{
+    .descriptionTwo{
       left: 120px;
       top: 400px
 
     }
-    .nameTree{
+    .descriptionTree{
       left: 120px;
       top: 370px
 
 
     }
-    .logo1 {
+    .logo {
       position: absolute;
       left: 26%;
       top: 40px;
-      width: 50%; /* Ajuste conforme necessário */
-      height: auto; /* Mantenha a altura automática para evitar distorções */
-      border-radius: 50%; /* Torna a imagem circular */
-      opacity: 0.88; /* Valor de opacidade entre 0 (transparente) e 1 (opaco) */
+      width: 50%;
+      height: auto; 
+      border-radius: 50%; 
+      opacity: 0.88; 
   }
-  .logo1 img {
+  .logo img {
     width: 100%;
     height: auto;
     display: block;
@@ -158,34 +157,34 @@
       #icon_facebook, #Git_icon, #icon_linkedin{
         top: 280px;
       }
-      .nameOne{
+      .descriptionOne{
         left: 95px;
         top: 350px ;
    font-size: 14px;
        }
-       .nameTwo{
+       .descriptionTwo{
         left: 100px;
         top: 380px ;
    font-size: 14px;
    
        }
-       .nameTree{
+       .descriptionTree{
         left: 100px;
         top: 410px ;
    font-size: 14px;
    
    
        }
-       .logo1 {
+       .logo {
         position: absolute;
         left: 26%;
         top: 40px;
-        width: 50%; /* Ajuste conforme necessário */
-        height: auto; /* Mantenha a altura automática para evitar distorções */
-        border-radius: 50%; /* Torna a imagem circular */
-        opacity: 0.88; /* Valor de opacidade entre 0 (transparente) e 1 (opaco) */
+        width: 50%; 
+        height: auto;
+        border-radius: 50%; 
+        opacity: 0.88; 
     }
-    .logo1 img {
+    .logo img {
       width: 100%;
       height: auto;
       display: block;
@@ -195,35 +194,35 @@
       #icon_facebook, #Git_icon, #icon_linkedin{
         top: 280px;
       }
-      .nameOne{
+      .descriptionOne{
         left: 75px;
         top: 370px ;
         font-size: 12px;
 
        }
-       .nameTwo{
+       .descriptionTwo{
          left: 80px;
          top: 400px;
          font-size: 12px;
 
        }
-       .nameTree{
+       .descriptionTree{
          left: 80px;
          font-size: 12px;
          top: 430px
    
    
        }
-       .logo1 {
+       .logo {
         position: absolute;
         left: 26%;
         top: 40px;
-        width: 50%; /* Ajuste conforme necessário */
-        height: auto; /* Mantenha a altura automática para evitar distorções */
-        border-radius: 50%; /* Torna a imagem circular */
-        opacity: 0.88; /* Valor de opacidade entre 0 (transparente) e 1 (opaco) */
+        width: 50%; 
+        height: auto; 
+        border-radius: 50%; 
+        opacity: 0.88; 
     }
-    .logo1 img {
+    .logo img {
       width: 100%;
       height: auto;
       display: block;
@@ -234,19 +233,19 @@
     #icon_facebook, #Git_icon, #icon_linkedin{
       top: 290px;
     }
-    .nameOne{
+    .descriptionOne{
       left: 72px;
       top: 310px ;
       font-size: 8px;
 
      }
-     .nameTwo{
+     .descriptionTwo{
        left: 72px;
        top: 330px;
        font-size: 8px;
 
      }
-     .nameTree{
+     .descriptionTree{
        left: 72px;
        font-size: 8px;
        top: 350px
@@ -254,16 +253,16 @@
  
        
      }
-     .logo1 {
+     .logo {
       position: absolute;
       left: 26%;
       top: 40px;
-      width: 50%; /* Ajuste conforme necessário */
-      height: auto; /* Mantenha a altura automática para evitar distorções */
-      border-radius: 50%; /* Torna a imagem circular */
-      opacity: 0.88; /* Valor de opacidade entre 0 (transparente) e 1 (opaco) */
+      width: 50%; 
+      height: auto; 
+      border-radius: 50%; 
+      opacity: 0.88; 
   }
-  .logo1 img {
+  .logo img {
     width: 100%;
     height: auto;
     display: block;
@@ -287,36 +286,36 @@ margin-right: 20px;
   left: -130px;
   margin-right: 20px;
 }
-  .nameOne{
+  .descriptionOne{
     left:5px;
     top: 450px ;
     font-size: 16px;
 
    }
-   .nameTwo{
+   .descriptionTwo{
      left: 5px;
      top: 480px;
      font-size: 16px;
      z-index: 9;
 
    }
-   .nameTree{
+   .descriptionTree{
      left: 5px;
      font-size: 16px;
      top: 510px;
 z-index: 9;
 
    }
-   .logo1 {
+   .logo {
     position: absolute;
     left: 6%;
     top: 40px;
-    width: 40%; /* Ajuste conforme necessário */
-    height: auto; /* Mantenha a altura automática para evitar distorções */
-    border-radius: 50%; /* Torna a imagem circular */
-    opacity: 0.88; /* Valor de opacidade entre 0 (transparente) e 1 (opaco) */
+    width: 40%; 
+    height: auto; 
+    border-radius: 50%; 
+    opacity: 0.88; 
 }
-.logo1 img {
+.logo img {
   width: 100%;
   height: auto;
   display: block;

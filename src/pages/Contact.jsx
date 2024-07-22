@@ -1,8 +1,8 @@
 import React from "react";
-import "../pages/Contato.css";
+import "../pages/Contact.css";
 
 export default (props) => (
-  <div id="contato">
+  <div id="Contact">
     <form
       id="formulario"
       action="https://api.staticforms.xyz/submit"

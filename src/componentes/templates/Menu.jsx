@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Switch, Route, HashRouter, Redirect } from "react-router-dom";
-import Aprendizado from "../../pages/Aprendizado";
-import Contato from "../../pages/Contato";
-import Projetos from "../../pages/Projetos";
+import Apprenticeship from "../../pages/Apprenticeship";
+import Contact from "../../pages/Contact";
+import Project from "../../pages/Project";
 import { Button } from "antd";
 import "../templates/Menu.css";
 
-const Navigation = (props) => {
+const MenuNavigation = (props) => {
   const [activeButton, setActiveButton] = useState(null);
   const handleClick = (buttonId) => {
     setActiveButton(buttonId);
@@ -14,17 +14,13 @@ const Navigation = (props) => {
   useEffect(() => {
     const hash = window.location.hash;
     switch (hash) {
-      // case '#/Home':
-      // case '/':
-      //   setActiveButton('btnInicio');
-      //   break;
-      case "#/Projetos":
+      case "#/Project":
         setActiveButton("btnProjetos");
         break;
-      case "#/Aprendizado":
+      case "#/apprenticeship":
         setActiveButton("btnAprendizado");
         break;
-      case "#/Contato":
+      case "#/Contact":
         setActiveButton("btnContato");
         break;
     }
@@ -35,7 +31,7 @@ const Navigation = (props) => {
       <div id="space">
         <a
           className="custom-link"
-          href="#Projetos"
+          href="#Project"
           onClick={() => handleClick("btnProjetos")}
         >
           <Button
@@ -49,7 +45,7 @@ const Navigation = (props) => {
       <div id="space">
         <a
           className="custom-link"
-          href="#Aprendizado"
+          href="#Apprenticeship"
           onClick={() => handleClick("btnAprendizado")}
         >
           <Button
@@ -63,7 +59,7 @@ const Navigation = (props) => {
       <div id="space">
         <a
           className="custom-link"
-          href="#Contato"
+          href="#Contact"
           onClick={() => handleClick("btnContato")}
         >
           <Button
@@ -77,14 +73,13 @@ const Navigation = (props) => {
 
       <HashRouter>
         <Switch>
-          <Route path="/Aprendizado" component={Aprendizado} />
-          <Route path="/Contato" component={Contato} />
-          <Route path="/Projetos" component={Projetos} />
+          <Route path="/Apprenticeship" component={Apprenticeship} />
+          <Route path="/Contact" component={Contact} />
+          <Route path="/Project" component={Project} />
         </Switch>
       </HashRouter>
     </div>
   );
 };
 
-
-export default Navigation;
+export default MenuNavigation;
