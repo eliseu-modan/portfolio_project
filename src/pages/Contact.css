@@ -2,8 +2,8 @@
 
 #Contact {
     position: absolute;
-    top: 100px;
-    left: 55%;
+    top: 90px;
+    left: 25%;
     background-color: #ffffff;
     padding-right: 500px; /* Ajuste conforme necessário */
     width: 30%; /* Garante que ocupe toda a largura disponível */
@@ -48,9 +48,10 @@
   /* Media query para telas menores */
   @media (max-width: 626px) {
     #Contact {
-        width: 200%;
-        left: 10%; /* Largura total do formulário em telas menores */
-
+      top: 90px;
+        width: 300px;
+        left: -50px; /* Largura total do formulário em telas menores */
+        
       padding-right: 0; /* Ajusta o padding conforme necessário */
     }
   

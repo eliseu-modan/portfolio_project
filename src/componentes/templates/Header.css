@@ -272,9 +272,11 @@
 @media (max-width:626px){
 
   html{
-margin: -11px;  }
+margin: -11px; 
+
+}
   .header{
-    position:absolute ;
+    position:relative ;
       width:620px;
       z-index: 9;
       left: 0px;
