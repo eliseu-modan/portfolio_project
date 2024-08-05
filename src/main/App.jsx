@@ -25,12 +25,12 @@ const App = () => {
   const siderStyle = {
     textAlign: "center",
     minHeight: 120,
-    left: "1px",
+    left: "-10px",
     height: "99.6%",
     lineHeight: "120px",
     color: "#000000",
     backgroundColor: "#00000",
-    border: "solid 2px #000000",
+    // border: "solid 2px #000000",
   };
   const footerStyle = {
     textAlign: "center",

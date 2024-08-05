@@ -50,9 +50,21 @@
     .apresentation {
         position: absolute;
         left: -30px;
-        top: 640px;
+        top: 340px;
         z-index: 9;
         width: 0;
         background-color: rgb(30, 30, 30);
+    }
+    .displayName {
+        position: relative;
+        left: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 6px;
+        color: rgb(0, 0, 0);
+        background-color: #c1c1c1;
+        border-radius: 10px;
+        padding-left: 20px;
+        border-right: 9px solid rgb(255, 255, 255);
     }
 }

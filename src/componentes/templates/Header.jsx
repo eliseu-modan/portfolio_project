@@ -13,19 +13,19 @@ export default (props) => (
     <div className="descriptionTree">Especializado em DevOps</div>
 
     <a
-      style={{ background: "rgb(27, 27, 27)" }}
+      style={{ background :"rgb(4, 4, 63)" }}
       href="https://web.facebook.com/junior.modanesi?_rdc=1&_rdr"
     >
       <img id="icon_facebook" src={IconFacebook} width={25} />
     </a>
     <a
-      style={{ background: "rgb(27, 27, 27)" }}
+      style={{ background :"rgb(4, 4, 63)" }}
       href="https://github.com/eliseu-modan"
     >
       <img id="Git_icon" src={IconGit} width={33} />{" "}
     </a>
     <a
-      style={{ background: "rgb(27, 27, 27)" }}
+      style={{ background :"rgb(4, 4, 63)" }}
       href="https://www.linkedin.com/in/eliseu-junior-b4801a1b6/"
     >
       <img id="icon_linkedin" src={IconLinkedin} width={27} />
