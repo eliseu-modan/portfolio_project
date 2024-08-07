@@ -282,7 +282,8 @@
 
   html{
 margin: -10px; 
-width:102.1%;
+width:109.1%;
+overflow-x: hidden;
 
 }
   .header{
@@ -294,7 +295,8 @@ width:102.1%;
       z-index: 9;
       padding-bottom: 500px;
       height: 170%;
-      
+      overflow-x: hidden;
+
   }
   
   #editFacebookIcon{
@@ -317,20 +319,20 @@ z-index: 2;
   margin-right: 20px;
 }
   .descriptionOne{
-    left:8%;
+    left:6%;
     top: 400px ;
     font-size: 16px;
 
    }
    .descriptionTwo{
-     left: 9%;
+     left: 7.5%;
      top: 440px;
      font-size: 16px;
      z-index: 9;
 
    }
    .descriptionTree{
-     left: 9%;
+     left: 7.5%;
      font-size: 16px;
      top: 480px;
 z-index: 9;
