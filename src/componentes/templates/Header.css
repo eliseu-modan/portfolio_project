@@ -5,13 +5,31 @@
     left: 0%;
     top: 0%;
     height: 160%;
-    background-color: rgb(4, 4, 63);
+    /* background-color: rgb(4, 4, 63); */
     color: aliceblue;
     background-image: url('../../componentes/imgs/galaxy.jpg');
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
     opacity: 96%;
+}
+/* Definindo a animação de rotação 3D */
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+/* Aplicando a animação à classe logo */
+.logo {
+  width: 50%; /* Ajuste conforme necessário */
+  height: auto;
+  animation: rotateY 0.9s linear 3; /* 2 segundos por rotação, 3 rotações */
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
 }
 
   .descriptionOne{
@@ -52,8 +70,7 @@
     letter-spacing: 3px;
 
   }
- 
-    
+
     #icon_facebook {
         position: relative;
         top: 370px;
@@ -293,7 +310,7 @@ overflow-x: hidden;
       /* height: 600px; */
       /* background-color: rgb(4, 4, 63); */
       z-index: 9;
-      padding-bottom: 500px;
+      /* padding-bottom: 500px; */
       height: 170%;
       overflow-x: hidden;
 
@@ -306,6 +323,7 @@ overflow-x: hidden;
 
   a{
 display: contents;    
+z-index: 1;
   }
   #icon_facebook, #Git_icon{
     top: 370px;
