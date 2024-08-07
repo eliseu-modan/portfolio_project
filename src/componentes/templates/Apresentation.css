@@ -49,7 +49,7 @@
 @media (max-width: 626px) {
     .apresentation {
         position: absolute;
-        left: -30px;
+        left: 60px;
         top: 340px;
         z-index: 9;
         width: 0;

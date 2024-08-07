@@ -186,7 +186,7 @@ function Project() {
           </div>
         </Carousel>
       </Card>
-      <Card className="card">
+      {/* <Card className="card">
         <div style={{ height: "80px", fontSize: "20px" }}>
           <b>Pipeline Devops</b>
         </div>
@@ -198,7 +198,7 @@ function Project() {
           width={670}
           alt="Pipeline"
         />
-      </Card>
+      </Card> */}
     </div>
   );
 }

@@ -281,16 +281,19 @@
 @media (max-width:626px){
 
   html{
-margin: -11px; 
+margin: -10px; 
+width:102.1%;
 
 }
   .header{
     position:relative ;
       width:620px;
-      z-index: 10;
-      left: 0px;
+      left: 10px;
+      /* height: 600px; */
       /* background-color: rgb(4, 4, 63); */
       z-index: 9;
+      padding-bottom: 500px;
+      height: 150%;
       
   }
   
@@ -304,30 +307,30 @@ display: contents;
   }
   #icon_facebook, #Git_icon{
     top: 370px;
-left: -145px;
+left: -53px;
 margin-right: 20px;
 z-index: 2;
 }
 #icon_linkedin{
   top: 372px;
-  left: -145px;
+  left: -53px;
   margin-right: 20px;
 }
   .descriptionOne{
-    left:0px;
+    left:15%;
     top: 400px ;
     font-size: 16px;
 
    }
    .descriptionTwo{
-     left: 5px;
+     left: 15%;
      top: 440px;
      font-size: 16px;
      z-index: 9;
 
    }
    .descriptionTree{
-     left: 6px;
+     left: 15%;
      font-size: 16px;
      top: 480px;
 z-index: 9;
@@ -335,7 +338,7 @@ z-index: 9;
    }
    .logo {
     position: absolute;
-    left: 6%;
+    left: 20%;
     top: 40px;
     width: 40%; 
     height: auto; 
