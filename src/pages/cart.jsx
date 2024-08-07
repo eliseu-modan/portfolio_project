@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import "../pages/cart.css"; 
+import "../pages/cart.css";
 
 const CartaComponent = ({ onOpen }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,7 @@ const CartaComponent = ({ onOpen }) => {
       onClick={handleClick}
     >
       <div className="carta">
-        <h1>Bem-vindo ao Meu Portfólio</h1>
+        <h1 className="editNameCartHome">Bem-vindo ao Meu Portfólio</h1>
         <p>Clique para abrir</p>
       </div>
     </motion.div>

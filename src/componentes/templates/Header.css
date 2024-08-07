@@ -7,41 +7,50 @@
     height: 100%;
     background-color: rgb(4, 4, 63);
     color: aliceblue;
+    background-image: url('../../componentes/imgs/galaxy.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    opacity: 96%;
 }
-
 
   .descriptionOne{
     position: relative;
-    font-size: 18px;
-    color: rgb(159, 159, 159);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
     width: 50%;
     height: 0%;
     top: 410px;
-    left: 145px;
+    left: 137px;
     background-color: black;
     opacity: 90%;
+    letter-spacing: 3px;
   }
   .descriptionTwo{
     position: relative;
-    font-size: 16.6px;
-    color: rgb(159, 159, 159);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
     width: 50%;
     height: 0%;
     top: 470px;
     left: 145px;
     background-color: black;
     opacity: 90%;
+    letter-spacing: 3px;
+
   }
   .descriptionTree{
     position: relative;
-    font-size: 16.5px;
-    color: rgb(159, 159, 159);
+    font-size: 15px;
+    color: rgb(255, 255, 255);
     width: 50%;
     height: 0%;
     top: 440px;
     left: 145px;
     background-color: black;
     opacity: 90%;
+    letter-spacing: 3px;
+
   }
  
     
@@ -278,21 +287,26 @@ margin: -11px;
   .header{
     position:relative ;
       width:620px;
-      z-index: 9;
+      z-index: 10;
       left: 0px;
-      background-color: rgb(4, 4, 63);
-      
+      /* background-color: rgb(4, 4, 63); */
+      z-index: 9;
       
   }
+  
+  #editFacebookIcon{
+ background: white;background-color: aliceblue;
+ z-index: 4;
+  }
+
   a{
-    background-color: rgb(4, 4, 63);
-
+display: contents;    
   }
-
   #icon_facebook, #Git_icon{
     top: 370px;
 left: -145px;
 margin-right: 20px;
+z-index: 2;
 }
 #icon_linkedin{
   top: 372px;
