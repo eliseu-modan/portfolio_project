@@ -87,7 +87,9 @@ const MenuNavigation = () => {
                 >
                   <Button
                     id="custom-button"
-                    className={activeButton === "btnAprendizado" ? "active" : ""}
+                    className={
+                      activeButton === "btnAprendizado" ? "active" : ""
+                    }
                   >
                     Aprendizado
                   </Button>
@@ -104,6 +106,13 @@ const MenuNavigation = () => {
                     className={activeButton === "btnContato" ? "active" : ""}
                   >
                     Contato
+                  </Button>
+                </a>
+              </div>
+              <div id="space" className="dowload">
+                <a href="/pdf/desenevolvedor Junior-Eliseu.pdf" download>
+                  <Button style={{ borderColor: "black" }}> 
+                 Baixar Curriculo
                   </Button>
                 </a>
               </div>

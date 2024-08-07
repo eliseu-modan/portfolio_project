@@ -20,7 +20,14 @@
     justify-content: center;
     align-items: center;
   } */
+  .imgSistemas {
+    cursor: pointer; /* Indica que a imagem é clicável */
+    transition: transform 0.3s ease; /* Transição suave para o zoom */
+  }
   
+  .imgSistemas:hover {
+    transform: scale(1.05); /* Leve ampliação ao passar o mouse */
+  }
   .slick-dots {
     z-index: 10; /* Ajuste conforme necessário */
   }
