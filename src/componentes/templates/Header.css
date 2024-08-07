@@ -4,7 +4,7 @@
     padding-bottom: 96vh;
     left: 0%;
     top: 0%;
-    height: 100%;
+    height: 160%;
     background-color: rgb(4, 4, 63);
     color: aliceblue;
     background-image: url('../../componentes/imgs/galaxy.jpg');
@@ -293,7 +293,7 @@ width:102.1%;
       /* background-color: rgb(4, 4, 63); */
       z-index: 9;
       padding-bottom: 500px;
-      height: 150%;
+      height: 170%;
       
   }
   
@@ -307,30 +307,30 @@ display: contents;
   }
   #icon_facebook, #Git_icon{
     top: 370px;
-left: -53px;
+left: -105px;
 margin-right: 20px;
 z-index: 2;
 }
 #icon_linkedin{
   top: 372px;
-  left: -53px;
+  left: -105px;
   margin-right: 20px;
 }
   .descriptionOne{
-    left:15%;
+    left:8%;
     top: 400px ;
     font-size: 16px;
 
    }
    .descriptionTwo{
-     left: 15%;
+     left: 9%;
      top: 440px;
      font-size: 16px;
      z-index: 9;
 
    }
    .descriptionTree{
-     left: 15%;
+     left: 9%;
      font-size: 16px;
      top: 480px;
 z-index: 9;
@@ -338,7 +338,7 @@ z-index: 9;
    }
    .logo {
     position: absolute;
-    left: 20%;
+    left: 10%;
     top: 40px;
     width: 40%; 
     height: auto; 

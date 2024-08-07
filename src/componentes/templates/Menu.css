@@ -46,7 +46,7 @@ color: rgb(4, 4, 63);
       .menu{
         position: absolute;
           top: 20px;
-          left: -80px;
+          left: -20px;
           width: 30%;
           z-index: 9;
 
