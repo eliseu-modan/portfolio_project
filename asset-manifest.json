@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Projeto_Portfolio/static/css/main.4ff98bb8.css",
-    "main.js": "/Projeto_Portfolio/static/js/main.c5aacd80.js",
+    "main.css": "/Projeto_Portfolio/static/css/main.42223f6a.css",
+    "main.js": "/Projeto_Portfolio/static/js/main.5ab1d294.js",
     "static/js/787.b8661bb6.chunk.js": "/Projeto_Portfolio/static/js/787.b8661bb6.chunk.js",
     "static/media/galaxy.jpg": "/Projeto_Portfolio/static/media/galaxy.b28ace693aa7eceaf42e.jpg",
     "static/media/PORTFOLIO1.png": "/Projeto_Portfolio/static/media/PORTFOLIO1.280f7b9a8e7c90a66eae.png",
@@ -12,13 +12,11 @@
     "static/media/SystemTarefa5.png": "/Projeto_Portfolio/static/media/SystemTarefa5.1e937251bea907049bea.png",
     "static/media/prismaIcon.png": "/Projeto_Portfolio/static/media/prismaIcon.26ac1eb347014a0acba0.png",
     "static/media/sequelizeIcon.png": "/Projeto_Portfolio/static/media/sequelizeIcon.b0684179f059e29cf033.png",
-    "static/media/pipeline.png": "/Projeto_Portfolio/static/media/pipeline.204a8a99e4f99978563f.png",
     "static/media/SystemSales3.png": "/Projeto_Portfolio/static/media/SystemSales3.15234dc8593dab674de3.png",
     "static/media/MVC.png": "/Projeto_Portfolio/static/media/MVC.adf1a43414e224925f0d.png",
     "static/media/SystemSales2.png": "/Projeto_Portfolio/static/media/SystemSales2.f3371f63543a6b9ba0d1.png",
     "static/media/BcryptIcon.jpeg": "/Projeto_Portfolio/static/media/BcryptIcon.82d62960bfb682d921d7.jpeg",
     "static/media/Logo1.jpg.png": "/Projeto_Portfolio/static/media/Logo1.jpg.99a3ef47d90c778f8b8a.png",
-    "static/media/addTask.png": "/Projeto_Portfolio/static/media/addTask.448a03d95b4ad72a301a.png",
     "static/media/mysqlIcon.jpg": "/Projeto_Portfolio/static/media/mysqlIcon.91847edbe06dae703d0f.jpg",
     "static/media/SystemSales5.png": "/Projeto_Portfolio/static/media/SystemSales5.b514e17028b1b6247a29.png",
     "static/media/jenkins.png": "/Projeto_Portfolio/static/media/jenkins.8d07a548423c9d75c555.png",
@@ -55,12 +53,12 @@
     "static/media/typescript.png": "/Projeto_Portfolio/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/SonarQube.png": "/Projeto_Portfolio/static/media/SonarQube.1b2e27b9545f53570736.png",
     "index.html": "/Projeto_Portfolio/index.html",
-    "main.4ff98bb8.css.map": "/Projeto_Portfolio/static/css/main.4ff98bb8.css.map",
-    "main.c5aacd80.js.map": "/Projeto_Portfolio/static/js/main.c5aacd80.js.map",
+    "main.42223f6a.css.map": "/Projeto_Portfolio/static/css/main.42223f6a.css.map",
+    "main.5ab1d294.js.map": "/Projeto_Portfolio/static/js/main.5ab1d294.js.map",
     "787.b8661bb6.chunk.js.map": "/Projeto_Portfolio/static/js/787.b8661bb6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ff98bb8.css",
-    "static/js/main.c5aacd80.js"
+    "static/css/main.42223f6a.css",
+    "static/js/main.5ab1d294.js"
   ]
 }
