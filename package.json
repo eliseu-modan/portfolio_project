@@ -2,7 +2,7 @@
   "name": "portjunior",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eliseu-modan.github.io/Projeto_Portfolio/",
+  "homepage": "https://eliseu-modan.github.io/portfolio_project/",
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
